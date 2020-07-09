@@ -1,0 +1,261 @@
+/*
+Selector - Objeto del documento HTML
+- Las etiquetas se escriben tal cual 
+-Si tengo un ID, se le antepone un #
+-Si tego una clase, se le antepone le punto (.)
+Las reglas CSS tiene la siguiete sintaxis
+
+selector{
+		atributo1 : valor1;
+		atributo2 : valor2;
+		atributo3 : valor3;
+}
+
+*/
+#header-top{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+#header-top nav{
+	margin-top: 10px;
+}
+#header-top nav ul{
+	list-style: none;padding-left: 0;
+}
+#header-top nav ul li{
+	display: inline-block;
+}
+#header-top nav ul li a {
+	text-decoration: none;
+	color: #626262;
+	font-size: 15px;
+	padding: 0 20px;
+	border-right: 2px solid #626262;
+	font-family: 'PT Sans', sans-serif;
+}#header-top nav ul li:last-child a{
+	padding-right: 0px; border-right: none;
+}
+#header-top nav ul li a:hover, .menu-activo{
+	color: #00aeff;
+}
+#buscador-header{
+	float: right;
+}
+/*---------------------------------------------------*/
+#PARTE_2{
+	background:#e2e7ed;
+}
+#eslogan nav ul{
+	list-style: none;
+}
+#eslogan nav ul li{
+	color: #626262;
+}
+#eslogan nav ul li h2{
+	font-size: 40px;
+	font-family: 'PT Sans', sans-serif;
+	padding-top: 15px
+}
+#menu nav ul li a{
+	text-decoration: none;
+	color: #626262;
+	font-size: 15px;
+	font-family: 'PT Sans', sans-serif;
+	padding-left: 22.5px;
+	padding-right: 22.5px;
+}
+#menu nav ul li{
+	list-style: none;
+	display: inline-block;
+	padding-top: 30px;
+}
+#menu nav ul li:first-child a{
+	padding-left: 22.5px;
+	padding-right: 22.5px;
+}
+/*-------------------------------------------------------------*/
+#PARTE_3{
+	background:#908ef3;
+}
+#encabezado nav ul{
+	list-style: none;
+}
+#encabezado nav ul li h2{
+	font-size: 25px;
+	color: #ffffff;
+	padding-top: 25px;
+	font-family: 'PT Sans', sans-serif;
+}
+#texto ul{
+	list-style: none;
+	margin-right: 15px;
+}
+#texto ul li h1{
+	font-size: 15px;
+	font-weight: 500;
+	padding-top: 23px;
+}
+#texto ul li p{
+	font-size: 15px;
+	margin-right: 10px;
+}
+#anuncio1 {
+	padding-left: 55px;
+}
+#anuncio2 {
+	padding-left: 80px;
+}
+/*------------------------------------------------------------*/
+#PARTE_4{
+	background:#58d99c;
+}
+#encabezado nav ul{
+	list-style: none;
+}
+#encabezado nav ul li h2{
+	font-size: 25px;
+	color: #ffffff;
+	padding-top: 25px;
+	font-family: 'PT Sans', sans-serif;
+}
+#texto ul{
+	list-style: none;
+	margin-right: 15px;
+}
+#texto ul li h1{
+	font-size: 15px;
+	font-weight: 500;
+	padding-top: 23px;
+}
+#texto ul li p{
+	font-size: 15px;
+	margin-right: 10px;
+}
+#anuncio3 {
+	padding-left: 55px;
+}
+#anuncio4 {
+	padding-left: 80px;
+}
+/*----------------------------------------------------------*/
+#PARTE_5{
+	background:#f4776d;
+}
+#encabezado nav ul{
+	list-style: none;
+}
+#encabezado nav ul li h2{
+	font-size: 25px;
+	color: #ffffff;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	font-family: 'PT Sans', sans-serif;
+}
+#texto ul{
+	list-style: none;
+	margin-right: 15px;
+	padding-bottom: 68px;
+}
+#texto ul li h1{
+	font-size: 15px;
+	font-weight: 500;
+	padding-top: 23px;
+}
+#texto ul li p{
+	font-size: 15px;
+	margin-right: 10px;
+}
+#anuncio5 {
+	padding-left: 55px;
+}
+#anuncio6 {
+	padding-left: 80px;
+}
+/*-----------------------------------------------*/
+#PARTE_6{
+	background:#edca52;
+}
+#encabezado nav ul{
+	list-style: none;
+}
+#encabezado nav ul li h2{
+	font-size: 25px;
+	color: #ffffff;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	font-family: 'PT Sans', sans-serif;
+}
+#texto ul{
+	list-style: none;
+	padding-bottom: 68px;
+}
+#texto ul li h1{
+	font-size: 15px;
+	font-weight: 500;
+	padding-top: 23px;
+}
+#texto ul li p{
+	font-size: 15px;
+	margin-right: 10px;
+}
+#anuncio7 {
+	padding-left: 55px;
+}
+#anuncio8 {
+	padding-left: 80px;
+}
+/*--------------------------------------------*/
+#PARTE_7{
+	background:#31333e;
+}
+#copyright{
+	color: #ffffff;
+	font-size: 15px;
+}
+#copyright2{
+	color: #ffffff;
+	font-size: 10px;
+	padding-bottom: 50px;
+	padding-top: 40px;
+}
+#accesos{
+	margin-bottom: 0;
+	padding-bottom: 0
+}
+#accesos nav{
+	padding-top: 46px;
+	margin-bottom: 0
+}
+#accesos nav ul{
+	list-style: none;
+	padding: 0
+}
+#accesos nav ul li{
+	display: inline-block;
+}
+#accesos nav ul li a{
+	color: #ffffff;
+	font-size: 15px;
+	padding-right: 15px;
+	padding-left: 15px;
+	border-right: 2px solid #ffffff;
+}
+#accesos nav ul li:last-child a{
+	border-right: none;
+}
+#accesos nav ul li:first-child a{
+	padding-left: 0;
+}
+#redes nav{
+	padding-top: 46px
+}
+#redes nav ul{
+	list-style: none;
+	float: right;
+}
+#redes nav ul li{
+	display: inline-block;
+}
+#redes nav ul li a{
+	color: #ffffff
+}
